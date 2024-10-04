@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\bin\Debug\Calculadora DCU.exe.config
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\bin\Debug\Calculadora DCU.exe
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\bin\Debug\Calculadora DCU.pdb
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora DCU.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora_DCU.CalcudaloraForm.resources
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora_DCU.Properties.Resources.resources
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora DCU.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora DCU.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora DCU.exe
+C:\Users\Dell\Desktop\Ideas-Proyectossinconcluir\Calculadora DCU\Calculadora DCU\Calculadora DCU\obj\Debug\Calculadora DCU.pdb
