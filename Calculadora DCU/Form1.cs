@@ -44,6 +44,7 @@ namespace Calculadora_DCU
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             TextboxClass.LenghtTxt(textBox1);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -58,7 +59,12 @@ namespace Calculadora_DCU
         //--------NUMBERS
         private void btn0_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "")
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "0.";
+            }
+
+            else
             {
                 textBox1.Text += "0";
             }
@@ -286,6 +292,7 @@ namespace Calculadora_DCU
                             op = "";
                             break;
                         }
+                        
                     }
 
                 case "÷":
@@ -296,11 +303,22 @@ namespace Calculadora_DCU
                         {
                             secvalue = Convert.ToDouble(textBox1.Text);
                             textBox1.Text = (frtvalue / secvalue).ToString();
-                            last_result = Convert.ToDouble(textBox1.Text);
-                            ClassOperations.Results(last_result, frtvalue, secvalue, op);
-                            label1.Text = "";
-                            op = "";
-                            break;
+                            if (textBox1.Text == "∞")
+                            {
+                                MessageBox.Show("No se puede dividir un nunero entre 0");
+                                textBox1.Clear();
+                                label1.Text = "";
+                                break;
+
+                            }
+                            else
+                            {
+                                last_result = Convert.ToDouble(textBox1.Text);
+                                ClassOperations.Results(last_result, frtvalue, secvalue, op);
+                                label1.Text = "";
+                                op = "";
+                                break;
+                            }
                         }
                         else
                         {
